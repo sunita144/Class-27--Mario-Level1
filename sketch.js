@@ -10,14 +10,13 @@ function preload() {
 
 function setup() {
   createCanvas(800,400);
-
  bg = createSprite(400,200,800,400);
  bg.addImage("background",bgImage);
  bg.scale =0.5;
 
- mario = createSprite(200,200,50,50);
+ mario = createSprite(150,300,50,50);
  mario.addAnimation("playing",marioPlaying);
-mario. scale =1.7;
+ 
 
 }
 
